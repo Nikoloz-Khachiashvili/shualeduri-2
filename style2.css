@@ -1,0 +1,118 @@
+@import url('https://fonts.googleapis.com/css2?family=Alata&family=Bai+Jamjuree:wght@400;600&family=Barlow:wght@600&family=Big+Shoulders+Display:wght@800;900&family=DM+Serif+Display&family=Epilogue:wght@400;700&family=Fraunces:opsz,wght@9..144,900&family=Hanken+Grotesk:wght@500;700;800&family=IBM+Plex+Sans:wght@400;700&family=Josefin+Sans:wght@300&family=Karla:wght@400;700&family=Oldenburg&family=Open+Sans:wght@400;700&family=Outfit:wght@400;700&family=Plus+Jakarta+Sans:wght@500;700;800&family=Poppins:wght@400;600&family=Raleway:wght@400;700&family=Red+Hat+Display:wght@500;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Alata&family=Bai+Jamjuree:wght@400;600&family=Barlow:wght@600&family=Big+Shoulders+Display:wght@800;900&family=DM+Serif+Display&family=Epilogue:wght@400;700&family=Fraunces:opsz,wght@9..144,900&family=Hanken+Grotesk:wght@500;700;800&family=IBM+Plex+Sans:wght@400;700&family=Josefin+Sans:wght@300&family=Karla:wght@400;700&family=Oldenburg&family=Open+Sans:wght@400;700&family=Outfit:wght@300&family=Plus+Jakarta+Sans:wght@500;700;800&family=Poppins:wght@400;600&family=Raleway:wght@400;700&family=Red+Hat+Display:wght@500;900&display=swap');
+
+
+
+*{
+    padding: 0;
+    box-sizing: border-box;
+    margin: 0;
+}
+
+.back-to-home{
+    display: flex;
+    flex-direction: row;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.back-to-home-text{
+    width: 204px;
+    height: 72px;
+    background: var(--Almost-Black, #151515);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.link2{
+    text-decoration: none;
+    color: white;
+    color: var(--White, #FFF);
+    font-family: Big Shoulders Display;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+    letter-spacing: 3.636px;
+}
+
+main{
+    display: flex;
+    flex-direction: column;
+    height: 493px;
+    width: 375px;
+    background: #151515;
+    margin-top: -4px;
+    padding-top: 48px;
+    padding-left: 16px;
+}
+
+.container{
+    margin-top: 48px;
+    display: flex;
+    flex-direction: column;
+    row-gap: 20px;
+}
+
+.our-location-title{
+    color: var(--White, #fff);
+    font-family: Big Shoulders Display;
+    font-size: 50px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: 45px; /* 90% */
+    text-transform: uppercase;
+}
+
+.our-address-title{
+    color: var(--Gold, #D5966C);
+    font-family: Big Shoulders Display;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: 32px; /* 100% */
+    text-transform: uppercase;
+}
+
+.our-address-text{
+    color: var(--White, #FFF);
+    font-family: Outfit;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 28px; /* 155.556% */
+}
+
+.our-location-text{
+    color: var(--White, #FFF);
+    font-family: Outfit;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 28px; /* 155.556% */
+}
+
+footer{
+    height: 336px;
+    width: 375px;
+    background: var(--Gold, #D5966C);
+    padding-left: 32px;
+    padding-top: 48px;
+    display: flex;
+    flex-direction: column;
+    row-gap: 38px;
+}
+
+.modern-gallery-text{
+    color: var(--Almost-Black, #151515);
+    font-family: Outfit;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 26px; /* 162.5% */
+}
+
+
+
