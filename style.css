@@ -11,7 +11,7 @@ body{
     padding-left: 16px;
 }
 
-.tablet-photo,.black-div,.desktop-photo,.second-photo-tablet,.third-photo-tablet,.fourth-photo-tablet{
+.tablet-photo,.black-div,.desktop-photo,.second-photo-tablet,.third-photo-tablet,.fourth-photo-tablet,.second-photo-des,.third-photo-des,.fourth-photo-des{
     display: none;
 }
 
