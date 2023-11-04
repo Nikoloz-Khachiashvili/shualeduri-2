@@ -98,7 +98,7 @@
     }
 
     .grid{
-        margin-top: 130px;
+        margin-top: 245px;
         display: grid;
         align-items: center;
         grid-template-areas: 'your-day second-photo-tablet'
@@ -250,9 +250,14 @@
         
     }
 
+    .fourth-photo-des{
+        margin-top: -125px;
+    }
+
     .be-inspired{
         height: 377px;
         width: 445px;
+        margin-bottom: -289px;
     }
 
     .second-photo-des{
