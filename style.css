@@ -1,0 +1,162 @@
+@import url('https://fonts.googleapis.com/css2?family=Alata&family=Bai+Jamjuree:wght@400;600&family=Barlow:wght@600&family=Big+Shoulders+Display:wght@800;900&family=DM+Serif+Display&family=Epilogue:wght@400;700&family=Fraunces:opsz,wght@9..144,900&family=Hanken+Grotesk:wght@500;700;800&family=IBM+Plex+Sans:wght@400;700&family=Josefin+Sans:wght@300&family=Karla:wght@400;700&family=Oldenburg&family=Open+Sans:wght@400;700&family=Outfit:wght@400;700&family=Plus+Jakarta+Sans:wght@500;700;800&family=Poppins:wght@400;600&family=Raleway:wght@400;700&family=Red+Hat+Display:wght@500;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Alata&family=Bai+Jamjuree:wght@400;600&family=Barlow:wght@600&family=Big+Shoulders+Display:wght@800;900&family=DM+Serif+Display&family=Epilogue:wght@400;700&family=Fraunces:opsz,wght@9..144,900&family=Hanken+Grotesk:wght@500;700;800&family=IBM+Plex+Sans:wght@400;700&family=Josefin+Sans:wght@300&family=Karla:wght@400;700&family=Oldenburg&family=Open+Sans:wght@400;700&family=Outfit:wght@300&family=Plus+Jakarta+Sans:wght@500;700;800&family=Poppins:wght@400;600&family=Raleway:wght@400;700&family=Red+Hat+Display:wght@500;900&display=swap');
+
+*{
+    padding: 0;
+    box-sizing: border-box;
+    margin: 0;
+}
+
+body{
+    padding-left: 16px;
+}
+
+header{
+    width: 375px;
+    height: 240px;
+    margin-left: -16px;
+}
+
+.modern-gallery{
+    display: flex;
+    flex-direction: column;
+    row-gap: 32px;
+    margin-top: 32px;
+}
+
+.modern-gallery-title{
+    color: var(--Almost-Black, #151515);
+    font-family: Big Shoulders Display;
+    font-size: 60px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: 55px; /* 91.667% */
+    text-transform: uppercase;
+}
+
+.modern-gallery-text{
+    color: var(--Dark-Grey, #444);
+    font-family: Outfit;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 28px; /* 155.556% */
+}
+
+.second-page{
+    display: flex;
+    flex-direction: row;
+}
+
+.second-page-link{
+    width: 204px;
+    height: 72px;
+    background: var(--Almost-Black, #151515);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.link{
+    text-decoration: none;
+    color: white;
+    color: var(--White, #FFF);
+    font-family: Big Shoulders Display;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+    letter-spacing: 3.636px;
+}
+
+.second-photo{
+    margin-top: 120px;
+}
+
+main{
+    display: flex;
+    flex-direction: column;
+    row-gap: 16px;
+}
+
+.your-day{
+    display: flex;
+    flex-direction: column;
+    row-gap: 21px;
+    margin-top: 1px;
+}
+
+.your-day-title{
+    color: var(--Almost-Black, #151515);
+    font-family: Big Shoulders Display;
+    font-size: 50px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: 45px; /* 90% */
+    text-transform: uppercase;
+}
+
+.your-day-text{
+    color: var(--Dark-Grey, #444);
+    font-family: Outfit;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 28px; /* 155.556% */
+}
+
+.third-photo{
+    margin-top: 16px;
+}
+
+.be-inspired{
+    width: 343px;
+    height: 293px;
+    background: var(--Almost-Black, #151515);
+    display: flex;
+    flex-direction: column;
+    row-gap: 24px;
+    padding-left: 24px;
+    padding-top: 48px;
+}
+
+.be-inspired-title{
+    color: var(--White, #FFF);
+    font-family: Big Shoulders Display;
+    font-size: 50px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: 45px; /* 90% */
+    text-transform: uppercase;
+}
+
+.be-inspired-text{
+    color: var(--White, #FFF);
+    font-family: Outfit;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 28px; /* 155.556% */
+}
+
+footer{
+    padding-left: 32px;
+    padding-top: 48px;
+    margin-top: 120px;
+    margin-left: -16px;
+    display: flex;
+    flex-direction: column;
+    row-gap: 38px;
+    width: 375px;
+    height: 336px;
+    background: var(--Almost-Black, #151515);
+}
+
+.footer-text{
+    color: var(--White, #FFF);
+    font-family: Outfit;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 26px; /* 162.5% */
+}
