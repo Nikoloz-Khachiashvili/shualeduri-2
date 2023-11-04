@@ -1,0 +1,42 @@
+@media(width >= 768px){
+    .map-for-mobile{
+        display: none;
+    }
+
+    .map-for-tablet{
+        display: block;
+    }
+
+    .back-to-home{
+        margin-left: 40px;
+    }
+
+    .our-location-title{
+        width: 223px;
+    }
+
+    main{
+        display: flex;
+        flex-direction: row;
+        height: 436px;
+        width: 768px;
+        padding-top: 88px;
+        padding-left: 39px;
+        column-gap: 68px;
+    }
+
+    .container{
+        margin-top: 2px;
+    }
+
+    footer{
+        display: flex;
+        flex-direction: row;
+        column-gap: 99px;
+        padding-top: 56px;
+        padding-left: 39px;
+        width: 768px;
+        height: 216px;
+        
+    }
+}

@@ -1,0 +1,119 @@
+@media(width >= 768px){
+    .mobile-photo,.desktop-photo,.second-photo,.third-photo,.fourth-photo{
+        display: none;
+    }
+    
+    .second-photo-tablet{
+        display: inline;
+        height: 400px;
+        width: 398px;
+    }
+
+    .third-photo-tablet{
+        display: block;
+        height: 720px;
+        width: 398px;
+    }
+    
+    .fourth-photo-tablet{
+        display: block;
+        height: 313px;
+        width: 280px;
+    }
+
+    *{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+
+    body{
+        padding-top: 145px;
+        padding-left: 39px;
+    }
+
+    .tablet-photo{
+        display: block;
+        position: absolute;
+        top: 0;
+        left: 0;
+        z-index: -1;
+        height: 700px;
+        width: 437px;
+        margin-top: -27px;
+    }
+    
+    .modern-gallery{
+        row-gap: 48px;
+        margin-left: 350px;
+        margin-top: -262px;
+    }
+
+    
+
+    .your-day-title{
+        width: 223px;
+    }
+    
+
+    .your-day{
+        grid-area: your-day;
+        display: flex;
+        justify-content: center;
+        
+    }
+
+    .second-photo-tablet-grid{
+        grid-area: second-photo-tablet;
+    }
+
+    .third-photo-tablet-grid{
+        grid-area: third-photo-tablet;
+        
+    }
+
+    .fourth-photo-tablet-grid{
+        grid-area: fourth-photo-tablet;
+        margin-top: -202.5px;
+    }
+
+    .be-inspired{
+        grid-area: be-inspired;
+        height: 396px;
+        width: 280px;
+        padding-top: 85px;
+        padding-left: 29px;
+        row-gap: 24px;
+        margin-top: -417.5px;
+    }
+    
+    .be-inspired-text{
+        width: 223px;
+    }
+
+    .grid{
+        margin-top: 245px;
+        display: grid;
+        align-items: center;
+        grid-template-areas: 'your-day second-photo-tablet'
+                             'third-photo-tablet fourth-photo-tablet'
+                             'third-photo-tablet be-inspired';
+        column-gap: 11px;
+        row-gap: 11px;
+    }
+
+    footer{
+        display: flex;
+        flex-direction: row;
+        column-gap: 99px;
+        padding-top: 56px;
+        padding-left: 39px;
+        width: 768px;
+        height: 216px;
+        margin-left: -39px;
+    }
+
+    .footer-text{
+        margin-left: -34px;
+    }
+}

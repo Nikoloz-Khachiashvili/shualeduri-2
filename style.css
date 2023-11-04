@@ -11,6 +11,10 @@ body{
     padding-left: 16px;
 }
 
+.tablet-photo,.desktop-photo,.second-photo-tablet,.third-photo-tablet,.fourth-photo-tablet{
+    display: none;
+}
+
 header{
     width: 375px;
     height: 240px;
