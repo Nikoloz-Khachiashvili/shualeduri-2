@@ -11,7 +11,7 @@ body{
     padding-left: 16px;
 }
 
-.tablet-photo,.desktop-photo,.second-photo-tablet,.third-photo-tablet,.fourth-photo-tablet{
+.tablet-photo,.black-div,.desktop-photo,.second-photo-tablet,.third-photo-tablet,.fourth-photo-tablet{
     display: none;
 }
 
@@ -50,6 +50,7 @@ header{
 .second-page{
     display: flex;
     flex-direction: row;
+    margin-top: 48px;
 }
 
 .second-page-link{

@@ -1,5 +1,5 @@
 @media(width >= 768px){
-    .mobile-photo,.desktop-photo,.second-photo,.third-photo,.fourth-photo{
+    .mobile-photo,.desktop-photo,.second-photo,.third-photo,.fourth-photo,.black-div,.second-photo-des,.third-photo-des,.fourth-photo-des{
         display: none;
     }
     
@@ -7,6 +7,8 @@
         display: inline;
         height: 400px;
         width: 398px;
+        overflow: hidden;
+        margin-left: -118px;
     }
 
     .third-photo-tablet{
@@ -43,7 +45,7 @@
         margin-top: -27px;
     }
     
-    .modern-gallery{
+    .modern-gallery-div{
         row-gap: 48px;
         margin-left: 350px;
         margin-top: -262px;
@@ -53,6 +55,10 @@
 
     .your-day-title{
         width: 223px;
+    }
+
+    .your-day-text{
+        width: 310px;
     }
     
 
@@ -98,7 +104,7 @@
         grid-template-areas: 'your-day second-photo-tablet'
                              'third-photo-tablet fourth-photo-tablet'
                              'third-photo-tablet be-inspired';
-        column-gap: 11px;
+        column-gap: 21px;
         row-gap: 11px;
     }
 
@@ -115,5 +121,165 @@
 
     .footer-text{
         margin-left: -34px;
+    }
+}
+
+
+@media(width > 1439px){
+    .mobile-photo,.tablet-photo,.second-photo,.third-photo,.fourth-photo,.second-photo-tablet,.third-photo-tablet,.fourth-photo-tablet{
+        display: none;
+    }
+
+    .desktop-photo{
+        display: inline;
+        position: absolute;
+        top: 0;
+        left: 450px;
+        z-index: -1;
+    }
+
+    .second-photo-des{
+        display: block;
+        height: 400px;
+        width: 635px;
+    }
+
+    .third-photo-des{
+        display: block;
+        height: 720px;
+        width: 635px;
+    }
+
+    .fourth-photo-des{
+        display:block;
+        width: 445px;
+        flex-shrink: 0;
+        height: 313px;
+    }
+
+    .modern-gallery-div{
+        display: flex;
+        flex-direction: column;
+        row-gap: 32px;
+        margin-top: 20px;
+        margin-left: -70px;
+    }
+
+    .modern-gallery-title{
+        width: 714px;
+        
+        color: white;
+        mix-blend-mode: difference;
+        font-feature-settings: 'clig' off, 'liga' off;
+        
+        /* Heading (M) */
+        font-family: Big Shoulders Display;
+        font-size: 60px;
+        font-style: normal;
+        font-weight: 900;
+        line-height: 60px; /* 100% */
+        text-transform: uppercase;
+    }
+
+    .modern-gallery-text{
+        width: 350px;
+        
+    }
+
+    .modern-gallery{
+        display: flex;
+        flex-direction: row;
+        margin-top: -262px;
+        margin-left: 104px;
+    }
+
+
+    body{
+        width: 1440px;
+        padding-left: 165px;
+        padding-top: 189px;
+    }
+
+    .black-div{
+        display: inline;
+        height: 799px;
+        width: 450px;
+        background: var(--Almost-Black, #151515);
+        position: absolute;
+        top: 0;
+        left: 0;
+        z-index: -2;
+    }
+
+    main{
+        margin-top: 530px;
+    }
+
+    .your-day{
+        grid-area: your-day;
+        display: flex;
+        justify-content: center;
+    }
+
+    .second-photo-des{
+        grid-area: second-photo-des;
+    }
+
+    .third-photo-des{
+        grid-area: third-photo-des;
+    }
+
+    .fourth-photo-des{
+        grid-area: fourth-photo-des;
+    }
+
+    .be-inspired{
+        grid-area: be-inspired;
+    }
+
+    .grid{
+        display: grid;
+        grid-template-areas: 'your-day second-photo-des'
+                                'third-photo-des fourth-photo-des'
+                                    'third-photo-des be-inspired';
+
+        row-gap: 30px;
+        column-gap: 30px;
+        align-items: center;
+        justify-content: center;
+        
+    }
+
+    .be-inspired{
+        height: 377px;
+        width: 445px;
+    }
+
+    .second-photo-des{
+        margin-left: -190px;
+    }
+
+    
+
+    .be-inspired{
+        padding-top: 65px;
+        padding-left: 48px;
+    }
+    
+
+    footer{
+        margin-top: 200px;
+        width: 100vw;
+        margin-left: -165px;
+        display: flex;
+        flex-direction: row;
+        column-gap: 400px;
+        padding-top: 80px;
+        padding-left: 165px;
+    }
+
+    .footer-text{
+        width: 430px;
+        margin-left: -100px;
     }
 }
